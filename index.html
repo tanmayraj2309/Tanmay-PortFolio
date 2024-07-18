@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tanmay portfolio</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="email.js"></script>
+
+
+    <!-- // email js -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "fm1KVVNi-7xPl540s",
+      });
+   })();
+</script>
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Tanmay</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1>Tanmay Raj</h1>
+            <p>
+                I'm a web developer passionate about crafting beautiful and functional websites for individuals dedicated to making a positive impact.
+            </p>
+            <p>Currently, I am studying at Lovely Professional University,
+                 where I am learning to build websites using HTML, CSS, JavaScript, Node.js, Express.js, 
+                MongoDB, and WordPress.</p>
+
+            <div class="social-media">
+                <!-- <a href="#"><i class='bx bxl-'></i></a> -->
+                <a href="https://github.com/tanmayraj2309"><i class='bx bxl-github'></i></a>
+                <a href="https://www.instagram.com/tanmay._.raj/"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://www.linkedin.com/in/tanmayraj2309/"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="https://drive.google.com/file/d/1lUJ9aODwhiS3IP5sORpvjRhg5f69OYEG/view?usp=sharing" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-camera'></i>
+                    <h3>Photographer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Web Designer</h3>
+                </div>
+                <!-- <div class="profession" style="--i:3;">
+                    <i class='bx bx-video-recording'></i>
+                    <h3>Videographer</h3>
+                </div> -->
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="images/pff.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/pff2.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>
+                Hi there, welcome to my website! I'm Tanmay,
+                I am currently pursuing my Bachelor's degree in Engineering (B.Tech) with a specialization in 
+                Full Stack Development from a reputed institution.
+                 My passion for building functional and innovative web solutions has driven me to choose this field.
+            </h3>
+            <p>
+                Beyond academics, I am deeply interested in the creative aspects of technology,
+                 such as web design and digital art. I believe that technology and art
+                 can complement each other in fascinating ways,
+                  and I am excited to explore this intersection further. 
+            </p>
+            <p>
+                Additionally, I am intrigued by startup culture and entrepreneurship.
+                 I am fascinated by the idea of creating something new and innovative 
+                 that can positively impact society. I look forward to learning more 
+                about the business world and gaining practical experience through internships and other opportunities.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>I offer professional web development services to create beautiful and functional 
+                    websites tailored to your needs. With expertise in HTML, CSS, JavaScript,
+                     Node.js, Express.js, MongoDB, and WordPress, I ensure your online presence is 
+                     both impactful and efficient.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-paint'></i>
+                <h3>Graphic Design</h3>
+                <p>I provide creative graphic design services to bring your vision to life. 
+                    With a keen eye for aesthetics and a passion for design, I create visually stunning and impactful 
+                    graphics that enhance your brand and communicate your message effectively.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>ZenFlow</h3>
+                <p>At Zenflow Consultancy, we provide innovative web design solutions to 
+                    help your business grow. Our bespoke websites not only look great but 
+                    also drive results.
+                     Partner with us to elevate your online presence and achieve your business goals.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="images/proj11.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Techy Software</h4>
+                    <p>Developed an internship project for a tech services company using HTML,
+                         TypeScript, CSS, and JavaScript. </p>
+                    <a href="https://tech-softwares-819wo7owe-tanmay-rajs-projects.vercel.app/"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio2.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Restaurant website</h4>
+                    <p>Developed an internship project for a restaurant built with HTML, CSS,
+                         and JavaScript for the frontend, 
+                         and Node.js with MongoDB for the backend.</p>
+                    <a href="https://github.com/tanmayraj2309/project-nexus.-restaurant-website-project-2"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio3.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Quiz App</h4>
+                    <p>Developed an college project for a restaurant built with HTML, CSS,
+                        and JavaScript for the frontend, 
+                        and Node.js with MongoDB for the backend.</p>
+                    <a href="https://github.com/tanmayraj2309/Quiz-App-using-Node-JS-and-Mongo-DB"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <!-- <div class="portfolio-box">
+                <img src="images/portfolio4.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>I offer professional web development services to
+                         create beautiful and functional websites tailored to your needs. With expertise in
+                          HTML, CSS, JavaScript, Node.js, Express.js, MongoDB,
+                         and WordPress, I ensure your online presence is both impactful and efficient.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio5.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="images/portfolio6.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
+                    <a href="#"><i class='bx bx-link-external'></i></a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial design -->
+    <!-- <div class="testimonial-container">
+        <h2 class="heading">Valuable <span>Testimonial</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial1.jpg" alt="">
+                        <h3>Jackson Levi</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dignissimos aliquid
+                            iure delectus corrupti impedit, beatae aperiam ad iusto nostrum possimus cum pariatur harum
+                            assumenda suscipit a, qui, tempora maxime nulla facere quo ipsum tempore. Atque libero
+                            provident ad aut officia pariatur voluptate quaerat delectus nesciunt, sequi eligendi
+                            aperiam fugit unde nihil, iste similique illum. Dignissimos enim officia consequuntur
+                            dolores.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial2.jpg" alt="">
+                        <h3>Flora Ocean</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dignissimos aliquid
+                            iure delectus corrupti impedit, beatae aperiam ad iusto nostrum possimus cum pariatur harum
+                            assumenda suscipit a, qui, tempora maxime nulla facere quo ipsum tempore. Atque libero
+                            provident ad aut officia pariatur voluptate quaerat delectus nesciunt, sequi eligendi
+                            aperiam fugit unde nihil, iste similique illum. Dignissimos enim officia consequuntur
+                            dolores.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="images/testimonial3.jpg" alt="">
+                        <h3>Julian Grayson</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Exercitationem dignissimos aliquid
+                            iure delectus corrupti impedit, beatae aperiam ad iusto nostrum possimus cum pariatur harum
+                            assumenda suscipit a, qui, tempora maxime nulla facere quo ipsum tempore. Atque libero
+                            provident ad aut officia pariatur voluptate quaerat delectus nesciunt, sequi eligendi
+                            aperiam fugit unde nihil, iste similique illum. Dignissimos enim officia consequuntur
+                            dolores.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" id="name" placeholder="Full Name">
+                <input type="email" id="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" id="mobile" placeholder="Mobile Number">
+                <input type="text"  id="subject" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" id="" value="Send Message" onclick="sendMail()" class="btn">
+        </form>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Created by Tanmay .</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
